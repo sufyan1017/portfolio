@@ -1,0 +1,10 @@
+a.btn:nth-child(2){
+    background: var(--bg-color);
+    color: var(--hover-color); 
+}
+a.btn:nth-child(2):hover{
+    color: var(--bg-color);
+}
+
+a.btn:nth-child(2)::before{
+    background: var(--hover-color);
